@@ -1,0 +1,1 @@
+This project is a web-based application of a Deterministic Finite Automata represented through a light bulb, allowing users to interact with the bulb and controlling its state. The light bulb has four distinct states: Off, On, Dim, and Blink. Through buttons, the users are able to switch the light bulb on, or off, make it dim, or create a blinking effect.
