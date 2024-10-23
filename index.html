@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finite State Machine using Light Bulbs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Finite State Machine with Light Bulbs</h1>
+
+    <div class="light-bulb-container">
+        <div id="lightBulb" class="light-bulb"></div>
+        <div class="bulb-base"></div>
+    </div>
+
+    <div class="state-info" id="stateInfo">Current State: OFF</div>
+
+    <button id="turnOn" onclick="turnOn()">Turn On/Static</button>
+    <button id="dim" onclick="turnDim()">Dim</button>
+    <button id="blink" onclick="startBlink()">Blink</button>
+    <button id="turnOff" onclick="turnOff()">Turn Off</button>
+
+    <div class="image-container">
+        <img src="images/fsm.png" alt="Placeholder Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
